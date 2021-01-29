@@ -29,7 +29,7 @@ ul li a:hover, active{
     margin-bottom: 2px;
     border-bottom:  1px solid #39a5e3;
 }
-.nav{
+.NavItem{
     width: 100%;
     max-height: 60vh;
     align-items: center;
@@ -58,13 +58,16 @@ ul li a:hover, active{
 
 }
 .menu-icon{
-    display: none;
+    display: block;
 }
-@media screen and(max-width:960px){
+@media screen and (max-width:960px){
+    
     .menu-icon{
         display: block;
+        cursor: pointer;
+        position: absolute;
     }
-    .nav{
+    .NavItem{
         position: 
         relative;
     }
@@ -77,11 +80,30 @@ ul li a:hover, active{
         top:60px;
         left:-100%;
         opacity: 1;
+        transition: all 0.5s ease-in-out;
 
     }
-    .nav-menu-active{
+    .nav-menu.active{
         left: 0;
+        transition: all 0.5s ease-in-out;
         background-color: #39a5e3;
         z-index: 1;
+    }
+    .navLink{
+        border-radius: 0;
+
+    }
+    .navLink{
+        text-align: center;
+        background-color: #000;
+        color:#39a5e3
+        padding: 2rem;
+        width: 100%;
+        display: table;
+        
+    }
+    .navLink:hover{
+
+        border-radius: 0;
     }
 }

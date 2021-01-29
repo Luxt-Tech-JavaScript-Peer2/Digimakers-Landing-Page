@@ -1,4 +1,10 @@
 import React, { Component } from 'react';
+import Navbar from './Components/Navbar';
+import Services from './Components/Services';
+import About from './Components/About';
+import './index.css';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+
 
 
 class App extends Component {
@@ -6,7 +12,17 @@ class App extends Component {
   
   render() {
     return (
-      <h1>Hello World!!!</h1>
+      <Router>
+        <div className='App'>
+        
+        <Navbar />
+        <Route path="/about" component={About}/>
+        <Route path="/services" component={Services}/>
+        
+      </div>
+      </Router>
+      
+      
     );
   }
 }

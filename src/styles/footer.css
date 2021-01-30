@@ -3,39 +3,36 @@
 footer {
   background: #003E80;
   color: rgb(197, 211, 218);
-  position: absolute;
   width: 100%;
-  bottom: 0;
 }
-.footer-top{
+
+.footer-top {
   justify-content: center;
-   
-}
-.wrapper{
-  padding:30px 5%;
 }
 
 footer a {
   color: #0CF7FC;
 }
 
-
-
 footer h2 {
   text-align: center;
   margin-bottom: 1rem;
   color: white;
 }
+
 svg {
   width: 20px;
   height: 20px;
 }
-.socials svg{
+
+.socials svg {
   cursor: pointer;
 }
-.socials svg:hover, footer a:hover{
+
+.socials svg:hover, footer a:hover {
   color: #E2F1FF;
 }
+
 .flex-row {
   display: flex;
   flex-direction: row;
@@ -53,56 +50,62 @@ svg {
 .order3 {
   order: 3;
 }
+
 .order2 {
   order: 2;
 }
+
 .order1 {
   order: 1;
 }
-.footer-nav-links ul{
+
+.footer-nav-links ul {
   margin-bottom: .8rem;
 }
+
 .socials {
   align-self: center;
-  color:#0CF7FC;
+  color: #0CF7FC;
 }
+
 .socials ul, .footer-nav-links ul {
   text-align: center;
   justify-content: center;
 }
-.socials p{
+
+.socials p {
   text-align: center;
 }
 
-
-ul li{
+ul li {
   margin: 0 1rem;
 }
-.small{
+
+.small {
   text-align: center;
   padding: 1em 0;
   background: #001F40;
   color: #BDBDBD;
 }
-.dt-only{
+
+.dt-only {
   display: none;
 }
 
 @media screen and (min-width: 750px) {
-  footer h2{
+  footer h2 {
     text-align: left;
     font-weight: 900;
     font-size: 2em;
     margin-bottom: 2rem;
   }
-  .dt-only{
+  .dt-only {
     display: block;
   }
   .md-flex-row {
     display: flex;
     flex-direction: row;
   }
-  
   .md-flex-col {
     display: flex;
     flex-direction: column;
@@ -119,30 +122,24 @@ ul li{
     order: 1;
     flex: 2;
   }
-  .footer-nav-links ul{
+  .footer-nav-links ul {
     align-items: flex-end;
   }
-  .address svg{
+  .address svg {
     margin-right: .8rem;
   }
-  .footer-nav-links ul li{
+  .footer-nav-links ul li {
     margin-bottom: 1rem;
   }
-  .icon{
+  .icon {
     margin-bottom: 1rem;
   }
-  .socials p{
+  .socials p {
     margin-bottom: 1rem;
     color: white;
     text-transform: uppercase;
   }
-  .socials ul li{
+  .socials ul li {
     margin-right: .8rem;
   }
-  .wrapper{
-    padding:50px 5% 20px;
-    max-width: 1200px;
-    margin: auto;
-  }
-  
 }

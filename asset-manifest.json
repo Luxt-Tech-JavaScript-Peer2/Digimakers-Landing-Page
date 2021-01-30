@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Digimakers-Landing-Page/static/css/main.e8ca8db9.chunk.css",
-    "main.js": "/Digimakers-Landing-Page/static/js/main.cac83470.chunk.js",
-    "main.js.map": "/Digimakers-Landing-Page/static/js/main.cac83470.chunk.js.map",
+    "main.css": "/Digimakers-Landing-Page/static/css/main.42114636.chunk.css",
+    "main.js": "/Digimakers-Landing-Page/static/js/main.920d8665.chunk.js",
+    "main.js.map": "/Digimakers-Landing-Page/static/js/main.920d8665.chunk.js.map",
     "runtime-main.js": "/Digimakers-Landing-Page/static/js/runtime-main.6f13981f.js",
     "runtime-main.js.map": "/Digimakers-Landing-Page/static/js/runtime-main.6f13981f.js.map",
-    "static/js/2.66fb0009.chunk.js": "/Digimakers-Landing-Page/static/js/2.66fb0009.chunk.js",
-    "static/js/2.66fb0009.chunk.js.map": "/Digimakers-Landing-Page/static/js/2.66fb0009.chunk.js.map",
+    "static/js/2.f5d16785.chunk.js": "/Digimakers-Landing-Page/static/js/2.f5d16785.chunk.js",
+    "static/js/2.f5d16785.chunk.js.map": "/Digimakers-Landing-Page/static/js/2.f5d16785.chunk.js.map",
     "index.html": "/Digimakers-Landing-Page/index.html",
-    "static/css/main.e8ca8db9.chunk.css.map": "/Digimakers-Landing-Page/static/css/main.e8ca8db9.chunk.css.map",
-    "static/js/2.66fb0009.chunk.js.LICENSE.txt": "/Digimakers-Landing-Page/static/js/2.66fb0009.chunk.js.LICENSE.txt"
+    "static/css/main.42114636.chunk.css.map": "/Digimakers-Landing-Page/static/css/main.42114636.chunk.css.map",
+    "static/js/2.f5d16785.chunk.js.LICENSE.txt": "/Digimakers-Landing-Page/static/js/2.f5d16785.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6f13981f.js",
-    "static/js/2.66fb0009.chunk.js",
-    "static/css/main.e8ca8db9.chunk.css",
-    "static/js/main.cac83470.chunk.js"
+    "static/js/2.f5d16785.chunk.js",
+    "static/css/main.42114636.chunk.css",
+    "static/js/main.920d8665.chunk.js"
   ]
 }

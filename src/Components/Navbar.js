@@ -1,7 +1,8 @@
 
 import React, { useState } from 'react';
-import {items} from './NavLinks';
-import './index.css';
+import { items } from './NavLinks';
+import { Link } from 'react-router-dom';
+import "../styles/navbar.css";
 
 export default function Navbar(props) {
     const [clicked, setClick]= useState(false);
@@ -10,24 +11,37 @@ export default function Navbar(props) {
     }
     return (
 
-            <nav className="NavItem">
-                <h1 className='title'>Digimakers</h1>
-                <div className='menu-icon' onClick={handleClick}>
-                    <i className={clicked ? 'fas fa-times' :  'fas fa-bars'} ></i>
-                </div>
-                <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
+            
+        <nav className="NavItem">
+            <div className='nav-wrapper'>
+                    <h1 className='title'>Digimakers</h1>
+                    <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
                     {
                       items.map((item, index)=>{
                         return(
                         <li key={index}>
-                            <a className={item.navLink} href={item.href}>{item.title}</a>
+                            <Link className={item.navLink} to={item.href}>{item.title}</Link>
                         </li>
                         )
                     }) 
                     }
-                    <button className='contact-btn'>Contact Us</button>
-                </ul>
+                    <li className='mb-only'>
+                        <Link to='/contact'>Contact Us</Link>
+                    </li>
+                    </ul>
+
+                <button className='contact-btn dt-only'>
+                <Link to='/contact'>Contact Us</Link>
+                </button>
+                
+                <div className='menu-icon' onClick={handleClick}>
+                    <i className={clicked ? 'fas fa-times' :  'fas fa-bars'} ></i>
+                </div>
+            </div>
+                
             </nav>
+    
+           
     
         
     )

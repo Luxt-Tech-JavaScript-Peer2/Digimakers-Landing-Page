@@ -5,7 +5,7 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import Team from './components/pages/Team';
-import Navbar from './Components/Navbar';
+import Navbar from './components/Navbar';
 
 
 class App extends Component {

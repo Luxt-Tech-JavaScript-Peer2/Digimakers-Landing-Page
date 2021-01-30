@@ -2,31 +2,16 @@
 {
 title:'Home',
 className : 'navLink',
-href: '#Home'
+href: '/'
 },
 {
     title:'About Us',
     className : 'navLink',
-    href: '#About'
-},
-{
-    title:'Services',
-    className : 'navLink',
-    href: '#Services'
-},
-{
-    title:'Strategy',
-    className : 'navLink',
-    href: '#Services'
+    href: '/about'
 },
 {
     title:'Teams',
     className : 'navLink',
-    href: '#Services'
+    href: '/team'
 },
-{
-    title:'Testimonials',
-    className : 'navLink',
-    href: '#Services'
-}
 ];

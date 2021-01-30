@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route} from 'react-router-dom';
 import Footer from './components/Footer';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import Team from './components/pages/Team';
+import Navbar from './Components/Navbar';
 
 
 class App extends Component {
@@ -14,7 +15,7 @@ class App extends Component {
     return (
       <Router>
         <div className='main-view'>
-          <h1>Welcome to DigiMakers</h1>
+         <Navbar />
           <Route exact path='/' component={Home}/>
           <Route path='/about' component={About}/>
           <Route path='/team'component={Team}/>
@@ -22,6 +23,7 @@ class App extends Component {
           <Footer/>
         </div>
      </Router>
+
     );
   }
 }

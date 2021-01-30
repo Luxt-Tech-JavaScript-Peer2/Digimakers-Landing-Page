@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import {items} from './NavLinks';
-
+import './index.css';
 
 export default function Navbar(props) {
     const [clicked, setClick]= useState(false);
@@ -17,7 +17,7 @@ export default function Navbar(props) {
                 </div>
                 <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
                     {
-                    items.map((item, index)=>{
+                      items.map((item, index)=>{
                         return(
                         <li key={index}>
                             <a className={item.navLink} href={item.href}>{item.title}</a>

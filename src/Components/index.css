@@ -96,7 +96,7 @@ ul li a:hover, active{
     .navLink{
         text-align: center;
         background-color: #000;
-        color:#39a5e3
+        color:#39a5e3;
         padding: 2rem;
         width: 100%;
         display: table;

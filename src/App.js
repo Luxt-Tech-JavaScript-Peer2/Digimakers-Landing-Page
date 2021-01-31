@@ -1,12 +1,15 @@
-import React, { Component } from 'react';
-
+import React, { Component } from "react";
+import {Hero} from "./Components/Hero";
+import "./styles/css/hero.css";
 
 class App extends Component {
 
   
   render() {
     return (
-      <h1>Hello World!!!</h1>
+      <div>
+        <Hero />
+      </div>
     );
   }
 }

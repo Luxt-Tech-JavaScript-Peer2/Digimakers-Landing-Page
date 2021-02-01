@@ -14,7 +14,7 @@ export default function Navbar(props) {
             
         <nav className="NavItem">
             <div className='nav-wrapper'>
-                    <h1 className='title'>Digimakers</h1>
+                    <p className='title'>DigiMakers</p>
                     <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
                     {
                       items.map((item, index)=>{

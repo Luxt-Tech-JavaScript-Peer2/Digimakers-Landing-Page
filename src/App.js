@@ -16,10 +16,11 @@ class App extends Component {
       <Router>
         <div className='main-view'>
          <Navbar />
-          <Route exact path='/' component={Home}/>
-          <Route path='/about' component={About}/>
-          <Route path='/team'component={Team}/>
-          <Route path='/contact' component={Contact}/>
+          
+              <Route exact path='/' component={Home} />
+              <Route path='/about' component={About}/>
+              <Route path='/team'component={Team}/>
+              <Route path='/contact' component={Contact}/>
           <Footer/>
         </div>
      </Router>

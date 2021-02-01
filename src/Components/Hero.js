@@ -1,26 +1,29 @@
 import React, {Component} from "react";
-import "../styles/css/hero.css";
+import "../styles/hero.css";
+import logo from "../assets/digii.jpg"
+import { Link } from "react-router-dom";
 
 export class Hero extends Component{
     render() {
         return (
-          <div>
-            <section id="main">
-              <div className="main-text">
-                <span> We Develop </span> <br /> Mobile and Web <br /> Apps...
+          <section className="hero">
+            <div className='wrapper'>
+                <div className="hero-text">
+                  <h1>
+                    <span className='we'> We</span> Develop <br /> Mobile and Web <br /> Apps...
+                  </h1>
+        
+                  <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />Vestibulum at lacus facilisis, sagittis nibh ut, placerat  folowingj risus. 
+                  </p>
+              
+                <button className='btn' >
+                  <Link to='/contact'>Get in touch</Link>
+                </button>
               </div>
-              <div className="text">
-                <p>
-                  At DigiMakers, It is our belief that each idea is unique and
-                  we <br /> constantly strive to make it happen with our
-                  creative and in <br /> novative solutions.
-                </p>
-              </div>
-              <div className="btn">
-                <button type="button">Get in touch</button>
-              </div>
-            </section>
-          </div>
+                <img src={logo} alt="our brand flag" className='hero-image' />
+             </div>  
+          </section>
         );
     }
 }

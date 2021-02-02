@@ -14,12 +14,12 @@ class App extends Component {
     return (
       <Router>
         <div className='main-view'>
-          <h1>Welcome to DigiMakers</h1>
           <Route exact path='/' component={Home}/>
           <Route path='/about' component={About}/>
           <Route path='/team'component={Team}/>
           <Route path='/contact' component={Contact}/>
           <Footer/>
+          
         </div>
      </Router>
     );

@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/Digimakers-Landing-Page/static/css/main.5ab14e11.chunk.css",
-    "main.js": "/Digimakers-Landing-Page/static/js/main.31266e6b.chunk.js",
-    "main.js.map": "/Digimakers-Landing-Page/static/js/main.31266e6b.chunk.js.map",
+    "main.css": "/Digimakers-Landing-Page/static/css/main.9574e417.chunk.css",
+    "main.js": "/Digimakers-Landing-Page/static/js/main.d0695fb9.chunk.js",
+    "main.js.map": "/Digimakers-Landing-Page/static/js/main.d0695fb9.chunk.js.map",
     "runtime-main.js": "/Digimakers-Landing-Page/static/js/runtime-main.6f13981f.js",
     "runtime-main.js.map": "/Digimakers-Landing-Page/static/js/runtime-main.6f13981f.js.map",
     "static/js/2.05f39390.chunk.js": "/Digimakers-Landing-Page/static/js/2.05f39390.chunk.js",
     "static/js/2.05f39390.chunk.js.map": "/Digimakers-Landing-Page/static/js/2.05f39390.chunk.js.map",
     "index.html": "/Digimakers-Landing-Page/index.html",
-    "static/css/main.5ab14e11.chunk.css.map": "/Digimakers-Landing-Page/static/css/main.5ab14e11.chunk.css.map",
+    "static/css/main.9574e417.chunk.css.map": "/Digimakers-Landing-Page/static/css/main.9574e417.chunk.css.map",
     "static/js/2.05f39390.chunk.js.LICENSE.txt": "/Digimakers-Landing-Page/static/js/2.05f39390.chunk.js.LICENSE.txt",
+    "static/media/campaign-creators-e6n7uoEnYbA-unsplash.d1c886dc.jpg": "/Digimakers-Landing-Page/static/media/campaign-creators-e6n7uoEnYbA-unsplash.d1c886dc.jpg",
     "static/media/digii.613cf3b1.jpg": "/Digimakers-Landing-Page/static/media/digii.613cf3b1.jpg",
     "static/media/web-dev-icon-2.1f2ac775.png": "/Digimakers-Landing-Page/static/media/web-dev-icon-2.1f2ac775.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6f13981f.js",
     "static/js/2.05f39390.chunk.js",
-    "static/css/main.5ab14e11.chunk.css",
-    "static/js/main.31266e6b.chunk.js"
+    "static/css/main.9574e417.chunk.css",
+    "static/js/main.d0695fb9.chunk.js"
   ]
 }

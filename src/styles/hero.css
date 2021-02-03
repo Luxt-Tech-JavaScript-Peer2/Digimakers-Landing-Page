@@ -13,23 +13,7 @@
     font-weight: 400;
     margin-bottom: 1.5rem;
 }
-.hero .btn a{
-    display: block;
-    background-color: #0884c2;
-    color: #fff;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 50px;
-    font-weight: 600;
-}
-.hero .btn a:hover{
-    background-color: #27719b;
-}
-.hero .btn{
-    border: none;
-    border-radius: 50px;
-    margin-bottom: 1rem;
-}
+
 .hero img{
     display: none;
 }

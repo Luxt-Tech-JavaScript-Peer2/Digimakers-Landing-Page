@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import Component2 from '../homecomponents/component2'
+import WeAre from '../WeAre'
 import CallToAction from '../CallToAction'
 import Hero from "../Hero";
 import Works from "../Works";
@@ -11,7 +11,7 @@ export default class Home extends Component {
       <main>
         <section>
           <Hero />
-          <Component2 />
+          <WeAre />
           <Works />
           <CallToAction />
         </section>

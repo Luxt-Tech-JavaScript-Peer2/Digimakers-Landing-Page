@@ -81,8 +81,7 @@
         padding:0 1rem;
     }
     .we-are p {
-        text-align: left;
-
+        text-align: justify;
         max-width: 400px;
     }
   

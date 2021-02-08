@@ -4,6 +4,7 @@ import WeAre from '../WeAre'
 import CallToAction from '../CallToAction'
 import Hero from "../Hero";
 import Works from "../Works";
+import Testimonils from "../Testimonials";
 
 export default class Home extends Component {
   render() {
@@ -13,6 +14,7 @@ export default class Home extends Component {
           <Hero />
           <WeAre />
           <Works />
+          <Testimonils />
           <CallToAction />
         </section>
       </main>

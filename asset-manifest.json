@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/Digimakers-Landing-Page/static/css/main.6473be15.chunk.css",
-    "main.js": "/Digimakers-Landing-Page/static/js/main.d0695fb9.chunk.js",
-    "main.js.map": "/Digimakers-Landing-Page/static/js/main.d0695fb9.chunk.js.map",
+    "main.css": "/Digimakers-Landing-Page/static/css/main.d24244cc.chunk.css",
+    "main.js": "/Digimakers-Landing-Page/static/js/main.479efcca.chunk.js",
+    "main.js.map": "/Digimakers-Landing-Page/static/js/main.479efcca.chunk.js.map",
     "runtime-main.js": "/Digimakers-Landing-Page/static/js/runtime-main.6f13981f.js",
     "runtime-main.js.map": "/Digimakers-Landing-Page/static/js/runtime-main.6f13981f.js.map",
-    "static/js/2.05f39390.chunk.js": "/Digimakers-Landing-Page/static/js/2.05f39390.chunk.js",
-    "static/js/2.05f39390.chunk.js.map": "/Digimakers-Landing-Page/static/js/2.05f39390.chunk.js.map",
+    "static/js/2.fd8720e3.chunk.js": "/Digimakers-Landing-Page/static/js/2.fd8720e3.chunk.js",
+    "static/js/2.fd8720e3.chunk.js.map": "/Digimakers-Landing-Page/static/js/2.fd8720e3.chunk.js.map",
     "index.html": "/Digimakers-Landing-Page/index.html",
-    "static/css/main.6473be15.chunk.css.map": "/Digimakers-Landing-Page/static/css/main.6473be15.chunk.css.map",
-    "static/js/2.05f39390.chunk.js.LICENSE.txt": "/Digimakers-Landing-Page/static/js/2.05f39390.chunk.js.LICENSE.txt",
+    "static/css/main.d24244cc.chunk.css.map": "/Digimakers-Landing-Page/static/css/main.d24244cc.chunk.css.map",
+    "static/js/2.fd8720e3.chunk.js.LICENSE.txt": "/Digimakers-Landing-Page/static/js/2.fd8720e3.chunk.js.LICENSE.txt",
     "static/media/campaign-creators-e6n7uoEnYbA-unsplash.d1c886dc.jpg": "/Digimakers-Landing-Page/static/media/campaign-creators-e6n7uoEnYbA-unsplash.d1c886dc.jpg",
     "static/media/digii.613cf3b1.jpg": "/Digimakers-Landing-Page/static/media/digii.613cf3b1.jpg",
+    "static/media/testimonial-1.58074946.jpg": "/Digimakers-Landing-Page/static/media/testimonial-1.58074946.jpg",
+    "static/media/testimonial-2.72bf4e48.jpg": "/Digimakers-Landing-Page/static/media/testimonial-2.72bf4e48.jpg",
+    "static/media/testimonial-3.9f2c974d.jpg": "/Digimakers-Landing-Page/static/media/testimonial-3.9f2c974d.jpg",
+    "static/media/testimonial-4.3595ee1a.jpg": "/Digimakers-Landing-Page/static/media/testimonial-4.3595ee1a.jpg",
+    "static/media/testimonial-5.a40ab3f8.jpg": "/Digimakers-Landing-Page/static/media/testimonial-5.a40ab3f8.jpg",
+    "static/media/testimonial-6.eb86adf5.jpg": "/Digimakers-Landing-Page/static/media/testimonial-6.eb86adf5.jpg",
     "static/media/web-dev-icon-2.1f2ac775.png": "/Digimakers-Landing-Page/static/media/web-dev-icon-2.1f2ac775.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6f13981f.js",
-    "static/js/2.05f39390.chunk.js",
-    "static/css/main.6473be15.chunk.css",
-    "static/js/main.d0695fb9.chunk.js"
+    "static/js/2.fd8720e3.chunk.js",
+    "static/css/main.d24244cc.chunk.css",
+    "static/js/main.479efcca.chunk.js"
   ]
 }

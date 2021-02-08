@@ -9,10 +9,9 @@ export default class Testimonials extends Component {
     super(props)
     this.breakPoints = [
       { width: 1, itemsToShow: 1 },
-      { width: 750, itemsToShow: 2, pagination: false },
+      { width: 750, itemsToShow: 2},
     ]
   }
-
 
   render() {
     return (

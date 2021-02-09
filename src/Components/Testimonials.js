@@ -8,7 +8,7 @@ export default class Testimonials extends Component {
   constructor(props) {
     super(props)
     this.breakPoints = [
-      { width: 1, itemsToShow: 1 },
+      { width: 1, itemsToShow: 1, showArrows: false },
       { width: 750, itemsToShow: 2},
     ]
   }
@@ -21,11 +21,16 @@ export default class Testimonials extends Component {
           <h2>What our clients say</h2>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
         </header>
-        <Carousel breakPoints={this.breakPoints} itemsToScroll={1} enableAutoPlay autoPlaySpeed={5000}>
+          <Carousel
+            breakPoints={this.breakPoints}
+            itemsToScroll={1}
+            enableAutoPlay
+            autoPlaySpeed={5000}
+          >
           {
             testimonies.map((item, index) => {
             return(
-              <item className='slide' key={index}>
+              <div className='slide' key={index}>
               <div>
                 <img src={item.photo}  alt={item.name}/>
                 <div className='head'>
@@ -38,7 +43,7 @@ export default class Testimonials extends Component {
                 <p>{item.testimony}</p>
                 <span className='close quote'>"</span>
               </div>
-          </item>
+          </div>
             )
           })
           }

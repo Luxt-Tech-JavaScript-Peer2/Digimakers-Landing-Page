@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import {testimonies} from "./Testimonies";
+import { testimoniesData } from "./Testimonies";
+import Testimony from './Testimony';
 import Carousel from 'react-elastic-carousel';
 
 
@@ -14,6 +15,13 @@ export default class Testimonials extends Component {
   }
 
   render() {
+
+  const testimonies =  testimoniesData.map((item) => {
+      return(
+        <Testimony testimony={item}/>
+      )
+    })
+
     return (
       <section className='testimonial'>
       <div className='wrapper'>
@@ -25,29 +33,10 @@ export default class Testimonials extends Component {
             breakPoints={this.breakPoints}
             itemsToScroll={1}
             enableAutoPlay
-            autoPlaySpeed={5000}
+            autoPlaySpeed={4000}
           >
-          {
-            testimonies.map((item, index) => {
-            return(
-              <div className='slide' key={index}>
-              <div>
-                <img src={item.photo}  alt={item.name}/>
-                <div className='head'>
-                  <h3>{item.name}</h3>
-                  <p>{item.title}</p>
-                </div>
-              </div>
-              <div className='description'>
-                <span className='open quote'>"</span>
-                <p>{item.testimony}</p>
-                <span className='close quote'>"</span>
-              </div>
-          </div>
-            )
-          })
-          }
-        </Carousel>
+             {testimonies}
+          </Carousel>
 
       </div>
     </section>

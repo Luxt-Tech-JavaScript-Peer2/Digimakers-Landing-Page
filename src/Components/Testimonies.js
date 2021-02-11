@@ -4,42 +4,47 @@ import photo3 from '../assets/testimonial-3.jpg';
 import photo4 from '../assets/testimonial-4.jpg';
 import photo5 from '../assets/testimonial-5.jpg';
 import photo6 from '../assets/testimonial-6.jpg';
-// import web from '../assets/web-dev-icon-2.png';
 
-export const testimonies = [
+export const testimoniesData = [
   {
+    id: 1,
     name: 'john doe',
     title: 'software developer',
     photo: photo,
     testimony: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, rerum fugit voluptate, illo eius dolor rem deserunt magni nobis, quos impedit! Ipsum earum iste est, debitis deserunt maiores suscipit. Distinctio!'
   },
   {
+    id: 2,
     name: 'ema smith',
     title: 'Civil servant',
     photo: photo2,
     testimony: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, rerum fugit voluptate, illo eius dolor rem deserunt magni nobis, quos impedit! Ipsum earum iste est, debitis deserunt maiores suscipit. Distinctio!'
   },
   {
-    name: 'john doe',
-    title: 'Banker',
+    id: 3,
+    name: 'Gray hart',
+    title: 'Data Scientist',
     photo: photo3,
     testimony: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, rerum fugit voluptate, illo eius dolor rem deserunt magni nobis, quos impedit! Ipsum earum iste est, debitis deserunt maiores suscipit. Distinctio!'
   },
   {
-    name: 'john doe',
-    title: 'Banker',
+    id: 4,
+    name: 'john obidi',
+    title: 'Socila influencer',
     photo: photo4,
     testimony: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, rerum fugit voluptate, illo eius dolor rem deserunt magni nobis, quos impedit! Ipsum earum iste est, debitis deserunt maiores suscipit. Distinctio!'
   },
   {
-    name: 'john doe',
-    title: 'Banker',
+    id: 5,
+    name: 'elun musk',
+    title: 'CEO Tesla',
     photo: photo5,
     testimony: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, rerum fugit voluptate, illo eius dolor rem deserunt magni nobis, quos impedit! Ipsum earum iste est, debitis deserunt maiores suscipit. Distinctio!'
   },
   {
-    name: 'john doe',
-    title: 'Banker',
+    id: 6,
+    name: 'harun Mnwenda',
+    title: 'Senior web Engineer',
     photo: photo6,
     testimony: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, rerum fugit voluptate, illo eius dolor rem deserunt magni nobis, quos impedit! Ipsum earum iste est, debitis deserunt maiores suscipit. Distinctio!'
   }

@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/Digimakers-Landing-Page/static/css/main.64fd4824.chunk.css",
-    "main.js": "/Digimakers-Landing-Page/static/js/main.4f14d40c.chunk.js",
-    "main.js.map": "/Digimakers-Landing-Page/static/js/main.4f14d40c.chunk.js.map",
+    "main.css": "/Digimakers-Landing-Page/static/css/main.260e9a77.chunk.css",
+    "main.js": "/Digimakers-Landing-Page/static/js/main.03c5fb15.chunk.js",
+    "main.js.map": "/Digimakers-Landing-Page/static/js/main.03c5fb15.chunk.js.map",
     "runtime-main.js": "/Digimakers-Landing-Page/static/js/runtime-main.6f13981f.js",
     "runtime-main.js.map": "/Digimakers-Landing-Page/static/js/runtime-main.6f13981f.js.map",
-    "static/js/2.fd8720e3.chunk.js": "/Digimakers-Landing-Page/static/js/2.fd8720e3.chunk.js",
-    "static/js/2.fd8720e3.chunk.js.map": "/Digimakers-Landing-Page/static/js/2.fd8720e3.chunk.js.map",
+    "static/js/2.a774f9d6.chunk.js": "/Digimakers-Landing-Page/static/js/2.a774f9d6.chunk.js",
+    "static/js/2.a774f9d6.chunk.js.map": "/Digimakers-Landing-Page/static/js/2.a774f9d6.chunk.js.map",
     "index.html": "/Digimakers-Landing-Page/index.html",
-    "static/css/main.64fd4824.chunk.css.map": "/Digimakers-Landing-Page/static/css/main.64fd4824.chunk.css.map",
-    "static/js/2.fd8720e3.chunk.js.LICENSE.txt": "/Digimakers-Landing-Page/static/js/2.fd8720e3.chunk.js.LICENSE.txt",
+    "static/css/main.260e9a77.chunk.css.map": "/Digimakers-Landing-Page/static/css/main.260e9a77.chunk.css.map",
+    "static/js/2.a774f9d6.chunk.js.LICENSE.txt": "/Digimakers-Landing-Page/static/js/2.a774f9d6.chunk.js.LICENSE.txt",
     "static/media/campaign-creators-e6n7uoEnYbA-unsplash.d1c886dc.jpg": "/Digimakers-Landing-Page/static/media/campaign-creators-e6n7uoEnYbA-unsplash.d1c886dc.jpg",
     "static/media/digii.613cf3b1.jpg": "/Digimakers-Landing-Page/static/media/digii.613cf3b1.jpg",
+    "static/media/magnet-me-.7b479995.jpg": "/Digimakers-Landing-Page/static/media/magnet-me-.7b479995.jpg",
     "static/media/testimonial-1.58074946.jpg": "/Digimakers-Landing-Page/static/media/testimonial-1.58074946.jpg",
     "static/media/testimonial-2.72bf4e48.jpg": "/Digimakers-Landing-Page/static/media/testimonial-2.72bf4e48.jpg",
     "static/media/testimonial-3.9f2c974d.jpg": "/Digimakers-Landing-Page/static/media/testimonial-3.9f2c974d.jpg",
@@ -22,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6f13981f.js",
-    "static/js/2.fd8720e3.chunk.js",
-    "static/css/main.64fd4824.chunk.css",
-    "static/js/main.4f14d40c.chunk.js"
+    "static/js/2.a774f9d6.chunk.js",
+    "static/css/main.260e9a77.chunk.css",
+    "static/js/main.03c5fb15.chunk.js"
   ]
 }

@@ -20,7 +20,7 @@ footer h2 {
   color: white;
 }
 
-footer svg {
+.socials svg, .address svg{
   width: 20px;
   height: 20px;
 }

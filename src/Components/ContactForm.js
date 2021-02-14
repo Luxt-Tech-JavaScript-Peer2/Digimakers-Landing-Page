@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import Socials from './Socials'
-import Address from './Address'
+import Socials from './Socials';
+import Address from './Address';
+import Form from './Form';
+
 
 
 export default class ContactForm extends Component {
@@ -15,14 +17,7 @@ export default class ContactForm extends Component {
               <Socials />
             </div>
             <div className='form'>
-              <form>
-                <h2>Send Us a Message</h2>
-                <p> We'll be glad to speek with you</p>
-                <input type='text' placeholder='Name...' />
-                <input type='email' placeholder='Email' />
-                <textarea placeholder='Message...' />
-                <input type='submit' value='submit' />
-              </form>
+              <Form />
             </div>
           </div>
         </div>

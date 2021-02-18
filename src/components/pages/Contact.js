@@ -1,10 +1,13 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import ContactForm from '../ContactForm';
+import ContactHero from "../ContactHero";
 
 export default class Contact extends Component {
   render() {
     return (
       <div>
-        <h1>Contact Works</h1>
+        <ContactHero />
+        <ContactForm />
       </div>
     )
   }

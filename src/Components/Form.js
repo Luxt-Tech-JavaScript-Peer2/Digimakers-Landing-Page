@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { database } from "../firebase";
+import FormComponent from "./FormComponent";
 
 export default class Form extends Component {
   constructor(props) {
@@ -11,28 +12,21 @@ export default class Form extends Component {
       message: ''
     }
   }
-  handleNameChange = (event, em) => {
+  handleChange = (event) => {
+    const {name, value} = event.target
     this.setState({
-      name: event.target.value
+      [name]: value
     })
   }
-  handleEmailChange = (event) => {
-    this.setState({
-      email: event.target.value
-    })
-  }
-  handleMessageChange = (event) => {
-    this.setState({
-      message: event.target.value
-    })
-  }
+  
   handleSubmit = (event) => {
+    const {name, email,message} = this.state
     event.preventDefault()
-    if (this.state.name && this.state.email && this.state.message) {
+    if (name && email && message) {
       database.collection('Messages').add({
-        name: this.state.name,
-        email: this.state.email,
-        message: this.state.message
+        name: name,
+        email: email,
+        message: message
       })
         .then(() => {
           alert(`Hurray!!!! 
@@ -52,14 +46,13 @@ export default class Form extends Component {
   render() {
     const {name, email, message} = this.state
     return (
-      <form onSubmit={this.handleSubmit}>
-          <h2>Send Us a Message</h2>
-          <p> We'll be glad to speek with you</p>
-          <input type='text' placeholder='Name...' value={name} onChange={this.handleNameChange} required />
-          <input type='email' placeholder='Email' value={email} onChange={this.handleEmailChange} required />
-          <textarea placeholder='Message...' value={message} onChange={this.handleMessageChange} required />
-          <input type='submit' value='submit' />
-      </form>
+      <FormComponent
+        handleSubmit={this.handleSubmit}
+        handleChange={this.handleChange}
+        name={name}
+        email={email}
+        message={message}
+      />
     )
   }
 

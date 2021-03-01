@@ -1,4 +1,4 @@
-import photo from './testimonial-1.jpg';
+import photo1 from '../assets/testimonial-1.jpg';
 import photo2 from '../assets/testimonial-2.jpg';
 import photo3 from '../assets/testimonial-3.jpg';
 import photo4 from '../assets/testimonial-4.jpg';
@@ -10,7 +10,7 @@ export const testimoniesData = [
     id: 1,
     name: 'john doe',
     title: 'software developer',
-    photo: photo,
+    photo: photo1,
     testimony: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, rerum fugit voluptate, illo eius dolor rem deserunt magni nobis, quos impedit! Ipsum earum iste est, debitis deserunt maiores suscipit. Distinctio!'
   },
   {

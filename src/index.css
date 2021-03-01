@@ -36,11 +36,11 @@
 
  /* section headers */
 
- .services header, .testimonial header {
+ section header {
    margin-bottom: 2rem;
  }
 
- .services header p, .testimonial header p {
+ section header p {
    width: 80%;
    font-size: .9rem;
    margin: 1rem auto;
@@ -49,7 +49,7 @@
  /* call to action  section*/
 
  .action {
-   background-color: #007BFF;
+   background-color: #027BD1;
  }
 
  .action button {
@@ -90,7 +90,7 @@
  .action p {
    color: #fff;
    margin-bottom: .5rem;
-   font-size: .9rem;
+   /* font-size: .9rem; */
  }
 
  .action-wrapper {
@@ -132,7 +132,7 @@
  }
 
  .services ul li:hover {
-   background-color: rgb(233, 242, 252);
+   background-color: #e9f2fc;
    border: none;
  }
 
@@ -180,7 +180,7 @@
  /* For all the section wrappers. give margin and padding */
 
  .wrapper {
-   padding: 30px 5%;
+   padding: 50px 5%;
  }
 
  h2 {
@@ -230,7 +230,7 @@
  .description p {
    flex: 9;
    text-align: justify;
-   font-size: .8rem;
+   font-size: .9rem;
  }
 
  .testimonial header {
@@ -337,9 +337,12 @@
    margin-bottom: 1rem;
  }
 
+ .color-primary{
+   color: #038AEB;
+ }
  @media screen and (min-width: 750px) {
    .wrapper {
-     padding: 50px 5%;
+     padding: 70px 5%;
      max-width: 1200px;
      margin: auto;
    }
@@ -361,7 +364,7 @@
    .services ul li {
      width: 30%;
    }
-   .services header p {
+   section header p {
      width: 60%;
    }
    .slide {

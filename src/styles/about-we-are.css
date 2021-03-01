@@ -1,0 +1,37 @@
+.section02{
+    text-align: center;
+
+    padding: 20px 0;
+    
+}
+.section02 h2{
+    color: #0844c2;
+    margin-bottom: 5px;
+}
+.content{
+    font-weight: bold;
+}
+.Mission{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.mission-text, .vision-text{
+    width: 50%;
+    
+    margin: 30px;
+}
+h3{
+    color: #0844c2;
+}
+
+@media screen and (max-width:960px){
+    .Mission{
+        flex-direction: column;
+    }
+    .vision-text, .mission-text{
+        width: 100%;
+        text-align: center;
+        margin:0;
+    }
+}

@@ -67,14 +67,14 @@
    align-items: center;
    justify-content: center;
    background-color: #fff;
-   color: #007BFF;
+   color: #027BD1;
    font-weight: 900;
    font-size: 1.2rem;
    transition: ease .3s;
  }
 
  .action button a:hover {
-   background-color: #007BFF;
+   background-color: #027BD1;
    border: 1px solid white;
    color: white;
  }
@@ -90,7 +90,8 @@
  .action p {
    color: #fff;
    margin-bottom: .5rem;
-   /* font-size: .9rem; */
+   font-size: .9rem;
+   text-align: center;
  }
 
  .action-wrapper {

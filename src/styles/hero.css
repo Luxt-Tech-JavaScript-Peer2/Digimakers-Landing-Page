@@ -1,4 +1,7 @@
 
+.hero{
+    text-align: center;
+}
 .hero h1 {
     color: #0884c2;
     font-size: 2rem;
@@ -47,5 +50,7 @@
         max-width: 400px;
         text-align: justify;
     }
-
+    .hero{
+        text-align: left;
+    }
 }

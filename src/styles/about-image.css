@@ -1,39 +1,49 @@
-.main-image{
-    width: 100%;
-    position: absolute;
+.about-hero{
+    text-align: center;
+    color: white;
     height: 300px;
-  object-fit: cover;
-  opacity: 0.5;
- 
-    
+    background-image: url("../assets/classroom.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.main-image:hover{
-    opacity: 1;
+.about-hero-overlay{
+   background-color: #0d6cc5cb;
+   height: 100%;
+   
 }
-
-.section01{
+.about-hero-overlay .wrapper{
+    height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;   
+}
+.about-desc{
     width: 100%;
-    
-    height: 300px;
-    position: relative;
+    max-width: 500px;
+    margin: auto;
 }
-
-
-.about{
-    position: absolute;
-    top: 70px;
-    left: 26px;
-    background-color: transparent;
-    opacity: 0.25;
-    color:rgb(218, 205, 27);
+.about-desc p{
+    padding: 10px;
+    background-color: hsla(209, 96%, 52%, 0.796);
+    color: cyan;
+    margin:auto auto 1rem auto;
+    width: fit-content;
+    letter-spacing: 10px;
     text-transform: uppercase;
-    padding: 4px;
 }
-.img-txt{
-    position: absolute;
-    top: 100px;
-    left: 26px;
-    color: #fff;
-    
 
+@media screen and (min-width: 750px){
+    .about-hero{
+        text-align: left;
+        height: 400px;
+    }
+    .about-desc{
+        width: 50%;
+        min-width: 500px;
+        max-width: 800px;
+        margin: 0;
+    }
+    .about-desc p{
+        margin:auto 0 1rem 0;
+    }
 }

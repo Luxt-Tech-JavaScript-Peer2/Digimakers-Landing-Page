@@ -26,7 +26,7 @@ export default class Testimonials extends Component {
       <section className='testimonial'>
       <div className='wrapper'>
         <header>
-          <h2>What our clients say</h2>
+          <h2 className='color-primary'>What our clients say</h2>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
         </header>
           <Carousel

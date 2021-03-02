@@ -9,12 +9,11 @@ export default class About extends Component {
   render() {
     return (
       <div>
-       <AboutImage />
-       <AboutWeAre/>
-       <Works />
-      <WhyWeAreSpecial/> 
-      <CallToAction/>     
-        
+        <AboutImage />
+        <AboutWeAre/>
+        <Works />
+        <WhyWeAreSpecial/> 
+        <CallToAction/>     
       </div>
     )
   }

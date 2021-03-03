@@ -14,7 +14,7 @@ export class Hero extends Component{
                   </h1>
         
                   <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />Vestibulum at lacus facilisis, sagittis nibh ut, placerat  folowingj risus. 
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.Vestibulum at lacus facilisis, sagittis nibh ut, placerat  folowingj risus. 
                   </p>
               
                 <button className='btn' >

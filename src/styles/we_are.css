@@ -26,7 +26,7 @@
 
 .we-are p {
     font-weight: 400;
-    font-size: .8rem;
+    /* font-size: .8rem; */
     text-align: center;
     margin-bottom: .5rem;
     max-width: 500px;
@@ -66,10 +66,11 @@
         flex-direction: row;
         grid-gap: 10px;
         align-items: unset;
-        justify-content: center;
+        justify-content: space-between;
+        /* justify-content: space-evenly; */
     }
     .we-are .wrapper>div {
-        flex-basis: 45%;
+        flex-basis: 48%;
     }
     .banner-wrapper{
         display: flex;
@@ -78,7 +79,6 @@
 
     .container2Content {
         align-items: flex-start;
-        padding:0 1rem;
     }
     .we-are p {
         text-align: justify;

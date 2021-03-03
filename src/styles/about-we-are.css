@@ -1,0 +1,27 @@
+.section02 h2, .section02 h3 {
+    color: #0d6cc5cb;
+}
+.section02 h2, .section02 h3 {
+    color: #0d6cc5cb;
+}
+
+.section02 .inner {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 2rem;
+    text-align: center;
+}
+
+.section02 h3 {
+    margin-bottom: 1rem;
+}
+.section02 header {
+   text-align: center;
+}
+
+@media screen and (min-width:750px) {
+    .section02 .inner {
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 2rem;
+    }
+}

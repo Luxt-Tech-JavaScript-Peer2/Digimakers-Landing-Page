@@ -1,0 +1,109 @@
+.teams-cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 -1rem;
+  flex-wrap: wrap;
+}
+
+.team-card {
+  position: relative;
+  width: 100%;
+  max-width: 350px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin: .5rem 0;
+}
+
+.banner {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100px;
+  background-color: #027bd1;
+  border-radius: 10px 10px 0 0;
+}
+
+.main-card {
+  background-color: rgb(233, 249, 255);
+  border-radius: 0 0 10px 10px;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0 1rem 1rem 1rem;
+}
+
+.main-card h3 {
+  color: #027bd1;
+  font-weight: bolder;
+  margin-bottom: .2rem;
+}
+
+a i {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  color: rgb(2, 123, 209)
+}
+
+.main-card p:first-of-type {
+  font-weight: bolder;
+  color: unset;
+}
+
+.main-card em {
+  margin-bottom: .5rem;
+  font-weight: 400;
+  color: unset;
+}
+
+.role {
+  display: block;
+  font-size: .9em;
+  color: rgb(53, 53, 53);
+}
+
+.team-brand {
+  width: 150px;
+  margin: auto;
+  border-radius: 50%;
+  border: 3px dashed #027bd1;
+  position: relative;
+  top: -80px;
+  margin-bottom: -65px;
+}
+
+.team-brand img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.brand-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-desc {
+  border-top: 1px solid #bdbdbd;
+  border-bottom: 1px solid #bdbdbd;
+  padding: 10px 0;
+  font-size: .8rem;
+  text-transform: none;
+  font-weight: 300;
+  color: unset;
+  margin-bottom: 10px;
+}
+
+.socials img {
+  display: inline-block;
+  margin: 10px;
+  width: 20px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -117,14 +117,11 @@
  }
 
  .services ul li {
-   display: block;
    border: 1px solid lightgrey;
    padding: .5rem;
    margin-bottom: 1rem;
-   width: 100%;
+   width: 90%;
    min-height: 230px;
-   min-width: 300px;
-   max-width: 250px;
  }
 
  .services ul li p {
@@ -273,7 +270,7 @@
    width: 90%;
    top: -90px;
    margin: auto auto -80px auto;
-   z-index: 1000;
+   z-index: 11;
    box-shadow: 5px 10px 18px #888888;
  }
 
@@ -341,6 +338,14 @@
  .color-primary{
    color: #038AEB;
  }
+
+ .shadow{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+ }
+ .shadow:hover, .shadow:active{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+
  @media screen and (min-width: 750px) {
    .wrapper {
      padding: 70px 5%;
@@ -358,9 +363,7 @@
    }
    .services ul {
      flex-direction: row;
-     align-items: center;
      justify-content: center;
-     flex-wrap: wrap;
    }
    .services ul li {
      width: 30%;

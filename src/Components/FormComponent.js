@@ -16,7 +16,7 @@ function FormComponent(props) {
             required
           />
           <input
-            name='eamil'
+            name='email'
             type='email'
             placeholder='Email'
             value={props.email}
@@ -24,7 +24,7 @@ function FormComponent(props) {
             required
           />
           <textarea
-            message='message'
+            name='message'
             placeholder='Message...'
             value={props.message}
             onChange={props.handleChange}

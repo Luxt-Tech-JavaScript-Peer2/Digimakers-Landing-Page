@@ -1,20 +1,19 @@
 .teams-cards {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
   align-items: center;
-  margin: 0 -1rem;
-  flex-wrap: wrap;
+  grid-gap: 1rem;
 }
 
 .team-card {
   position: relative;
-  width: 100%;
-  max-width: 350px;
   display: grid;
   justify-content: center;
   align-items: center;
+  max-width: 450px;
+  margin: auto;
   border-radius: 10px;
-  margin: .5rem 0;
 }
 
 .banner {
@@ -102,8 +101,20 @@ a i {
   width: 20px;
 }
 
-.socials {
+.teams-cards .socials {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (min-width:600px) {
+  .teams-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .teams-cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }

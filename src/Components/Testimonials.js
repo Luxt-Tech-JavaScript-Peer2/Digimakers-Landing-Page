@@ -18,7 +18,7 @@ export default class Testimonials extends Component {
 
   const testimonies =  testimoniesData.map((item) => {
       return(
-        <Testimony testimony={item}/>
+        <Testimony className='shadow' testimony={item}/>
       )
     })
 

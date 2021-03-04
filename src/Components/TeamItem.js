@@ -4,7 +4,7 @@ import "../styles/team.css";
 export default function TeamItem(props) {
   console.log(props);
   return (
-    <div className="team-card">
+    <div className="team-card shadow">
       <div className="banner"></div>
       <div className="main-card">
         <div className="team-brand">
